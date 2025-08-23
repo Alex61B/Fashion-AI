@@ -5,7 +5,7 @@ AI-powered fashion intelligence for product storytelling and predictive insights
 ---
 
 ## 🧠 Overview
-**ThreadTheory AI** is a proof-of-concept platform that helps fashion brands and sales associates connect data with storytelling. It uses LLMs to generate emotionally resonant product descriptions and sell-through tips, while offering lightweight forecasting for SKU-level performance. 
+**ThreadNotion ** is a proof-of-concept platform that helps fashion brands and sales associates connect data with storytelling. It uses LLMs to generate emotionally resonant product descriptions and sell-through tips, while offering lightweight forecasting for SKU-level performance. 
 
 This project showcases a full-stack build with LLM integration, backend APIs, a modern frontend, and cloud deployment. 
 
