@@ -1,4 +1,4 @@
-# ThreadTheory-AI
+# ThreadNotion
 
 AI-powered fashion intelligence for product storytelling and predictive insights.
 
