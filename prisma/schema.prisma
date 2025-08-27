@@ -1,0 +1,84 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  sku         String   @unique
+  title       String
+  description String?
+  brand       String?
+  attributes  Json?
+  price       Float?
+  currency    String?
+  scripts     Script[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Persona {
+  id           String   @id @default(cuid())
+  name         String   @unique
+  tone         String?
+  values       String?
+  instructions String
+  conversations Conversation[]
+  scripts      Script[]
+  createdAt    DateTime @default(now())
+}
+
+model Conversation {
+  id         String   @id @default(cuid())
+  personaId  String
+  persona    Persona  @relation(fields: [personaId], references: [id])
+  messages   Message[]
+  evaluation Evaluation?
+  createdAt  DateTime @default(now())
+}
+
+model Message {
+  id             String   @id @default(cuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id])
+  role           String   // "user" | "assistant" | "system"
+  content        String
+  createdAt      DateTime @default(now())
+}
+
+model Evaluation {
+  id             String   @id @default(cuid())
+  conversationId String   @unique
+  conversation   Conversation @relation(fields: [conversationId], references: [id])
+  storytelling   Int
+  emotional      Int
+  persuasion     Int
+  productKnow    Int
+  total          Int
+  strengths      String
+  tips           String
+  createdAt      DateTime @default(now())
+}
+
+model Script {
+  id         String   @id @default(cuid())
+  productId  String
+  product    Product  @relation(fields: [productId], references: [id])
+  personaId  String?
+  persona    Persona? @relation(fields: [personaId], references: [id])
+  tone       String?
+  content    Json
+  cacheKey   String   @unique
+  createdAt  DateTime @default(now())
+}
