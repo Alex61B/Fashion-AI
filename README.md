@@ -4,14 +4,14 @@ AI-powered fashion intelligence for product storytelling and predictive insights
 
 ---
 
-## 🧠 Overview
+##  Overview
 **ThreadNotion ** is a proof-of-concept platform that helps fashion brands and sales associates connect data with storytelling. It uses LLMs to generate emotionally resonant product descriptions and sell-through tips, while offering lightweight forecasting for SKU-level performance. 
 
 This project showcases a full-stack build with LLM integration, backend APIs, a modern frontend, and cloud deployment. 
 
 ---
 
-## 🎯 Features
+##  Features
 - SKU-level forecasting using mock or public product data
 - LLM-generated product stories and talking points
 - Persona-based advice (e.g., Gen Z in LA vs. luxury buyers in NYC)
@@ -20,7 +20,7 @@ This project showcases a full-stack build with LLM integration, backend APIs, a 
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Language**: Python
@@ -46,14 +46,14 @@ This project showcases a full-stack build with LLM integration, backend APIs, a 
 
 ---
 
-## 📈 Stretch Features (WIP)
+## Stretch Features (WIP)
 - Whisper/ElevenLabs for audio briefings
 - Dynamic SKU trend dashboards
 - Gamified leaderboard for sales associate usage
 
 ---
 
-## 👤 Author
+## Author
 Alexander Woodward Smith  
 [LinkedIn](https://www.linkedin.com/in/alexander-smith-879067293/)  
 woodward21@berkeley.edu
