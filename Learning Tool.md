@@ -1,6 +1,6 @@
-# ThreadTheory-AI: Learning Tool Expansion
+# ThreadNotion Learning Tool Expansion
 
-This document outlines the next phase of **ThreadTheory-AI**, focusing on two key features to transform the platform into a learning tool for sales associates:
+This document outlines the next phase of **ThreadNotion**, focusing on two key features to transform the platform into a learning tool for sales associates:
 1. **Consumer Agent Chat** – A simulated customer conversation tool.
 2. **Product Script Generator** – AI-powered sales scripts tailored to product SKUs and personas.
 
@@ -72,15 +72,15 @@ API Endpoints:
 
 ---
 
-## Why ThreadTheory-AI Beats a Simple In-Person Training Session
+## Why ThreadNotion Beats a Simple In-Person Training Session
 1. **Always-On Training**  
-   Traditional training happens once and is forgotten. ThreadTheory-AI provides **24/7 interactive coaching** that employees can use at any time, especially useful for onboarding new hires or refreshing skills.
+   Traditional training happens once and is forgotten. ThreadNotion provides **24/7 interactive coaching** that employees can use at any time, especially useful for onboarding new hires or refreshing skills.
 
 2. **Persona-Driven Practice**  
    Managers can’t easily replicate the variety of customers your associates will face. Our **Consumer Agent Chat** simulates realistic personas (e.g., Gen Z sneakerheads, luxury buyers in NYC) so associates can practice **adaptive storytelling** beyond a single scripted session.
 
 3. **AI-Generated Product Scripts**  
-   Instead of spending hours creating pitches, ThreadTheory-AI instantly produces **tailored, brand-aligned scripts** for every product and audience segment. This keeps messaging **consistent** while still being **customizable**.
+   Instead of spending hours creating pitches, ThreadNotion instantly produces **tailored, brand-aligned scripts** for every product and audience segment. This keeps messaging **consistent** while still being **customizable**.
 
 4. **Objective Feedback & Scoring**  
    In-person training is subjective and inconsistent. Our AI **evaluates tone, persuasion, and product knowledge objectively**—offering actionable insights that managers might miss.
@@ -92,4 +92,4 @@ API Endpoints:
    Every interaction is **tracked and analyzed**, helping managers see which employees improve over time, which products need better narratives, and what trends drive successful pitches.
 
 7. **Blended Training Approach**  
-   ThreadTheory-AI isn’t here to **replace** managers or team discussions—it’s a **training multiplier**. Use it before or after group sessions to reinforce learning with real-time practice and feedback.
+   ThreadNotion isn’t here to **replace** managers or team discussions—it’s a **training multiplier**. Use it before or after group sessions to reinforce learning with real-time practice and feedback.
