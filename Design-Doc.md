@@ -1,6 +1,6 @@
-# ThreadTheory-AI Design Document
+# ThreadNotion Design Document
 
-## 🧠 Overview
+## Overview
 
 **ThreadTheory-AI** is a proof-of-concept full-stack platform that combines fashion forecasting with brand storytelling through AI. The application predicts SKU-level performance using a time-series forecasting model and generates brand-aligned product descriptions using LLMs. Built for fashion buyers, merchandisers, and sales associates, the system enhances both product strategy and retail communication.
 
@@ -13,7 +13,7 @@ This project showcases:
 
 ---
 
-## 🗃️ Database Schema (PostgreSQL)
+## Database Schema (PostgreSQL)
 
 ### 1. `products`
 Stores basic product metadata.
@@ -57,7 +57,7 @@ Stores AI-generated product descriptions and storytelling briefs.
 
 ---
 
-## 🔧 Backend
+## Backend
 
 - **Language**: Python  
 - **Framework**: FastAPI  
@@ -75,7 +75,7 @@ Stores AI-generated product descriptions and storytelling briefs.
 
 ---
 
-## 📊 Forecasting Model (SKU Performance)
+## Forecasting Model (SKU Performance)
 
 - **Model**: Facebook Prophet or ARIMA (for time series forecasting)
 - **Input**: Historical sales from `sales_data`
@@ -84,7 +84,7 @@ Stores AI-generated product descriptions and storytelling briefs.
 
 ---
 
-## 💬 LLM Description Generator
+## LLM Description Generator
 
 - **Tool**: LangChain with OpenAI/GPT backend
 - **Inputs**: Product name, category, brand, tone
@@ -95,7 +95,7 @@ Stores AI-generated product descriptions and storytelling briefs.
 
 ---
 
-## 🎨 Frontend
+## Frontend
 
 - **Framework**: React.js or Next.js  
 - **Styling**: TailwindCSS (or Chakra UI as an alternative)  
@@ -107,7 +107,7 @@ Stores AI-generated product descriptions and storytelling briefs.
 
 ---
 
-## ☁️ Cloud Infrastructure
+## ☁Cloud Infrastructure
 
 - **Platform**: AWS  
   - **EC2**: Hosts backend + frontend
@@ -119,7 +119,7 @@ Stores AI-generated product descriptions and storytelling briefs.
 
 ---
 
-## 📈 Example Flow
+## Example Flow
 
 1. User uploads sales data (CSV).
 2. Backend parses and stores data in `sales_data`.
@@ -129,7 +129,7 @@ Stores AI-generated product descriptions and storytelling briefs.
 
 ---
 
-## 🧪 Future Enhancements
+## Future Enhancements
 
 - Admin dashboard with authentication
 - Integration with Shopify or NuORDER API
@@ -139,4 +139,4 @@ Stores AI-generated product descriptions and storytelling briefs.
 
 ---
 
-## 🗂️ File Structure
+## File Structure
